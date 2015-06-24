@@ -15,6 +15,12 @@ filter-branch`.
 0:15 Git Environment
 0:30 git init & Core Concepts
 1:20 <Break>
+1:30 Local Workflow
+1:45 git reflog
+2:00 git reset
+2:15 Patchwise Operations
+2:25 Rewriting History
+2:40 <Break>
 
 ## Keith Dahlby
 
@@ -87,4 +93,14 @@ filter-branch`.
 ### Checkout
 
 ### History
+
+## Local Workflow
+
+## git reflog
+
+## git reset
+
+## Patchwise Operations
+
+## Rewriting History
 
