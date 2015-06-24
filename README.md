@@ -100,6 +100,7 @@ filter-branch`.
 
 1. Keep `master` clean!
 2. Create new topic branches from `master`
+   - `git checkout master -b topic`
 3. Commit more than feels natural
 
 ### Stash
