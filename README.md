@@ -119,6 +119,7 @@ filter-branch`.
 - `git add -p`
 - `git reset -p`
 - `git checkout -p`
+- `git stash -p`
 
 ## Rewriting History
 
