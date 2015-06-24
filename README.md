@@ -75,16 +75,31 @@ filter-branch`.
 ### Index
 
 ### Commit
+Takes the current index and turns it into something stored for all time.
 
 #### Blob
+Just the content.  During renames it just compares blobs.
+
+Blobs are attached to a tree at some path.  Trees are case sensitive.
 
 #### Tree
+Tree is the content at is in a Commit
 
 #### Metadata
+##### hooks
+##### info
+##### objects
+###### info
+Blobs are stored here
+###### pack
+##### refs
+###### heads
+Branches are stored here.
+###### tags
+Tags are a fixed point in time
 
 ### HEAD
 
 ### Checkout
 
 ### History
-
