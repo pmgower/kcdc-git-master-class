@@ -98,6 +98,10 @@ filter-branch`.
 
 ### Branching
 
+1. Keep `master` clean!
+2. Create new topic branches from `master`
+3. Commit more than feels natural
+
 ### Stash
 
 ### Temporary Commits
@@ -110,6 +114,10 @@ filter-branch`.
 ### `git reset [<commit>] -- <path>`
 
 ## Patchwise Operations
+
+- `git add -p`
+- `git reset -p`
+- `git checkout -p`
 
 ## Rewriting History
 
