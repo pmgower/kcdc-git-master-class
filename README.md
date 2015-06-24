@@ -96,9 +96,18 @@ filter-branch`.
 
 ## Local Workflow
 
+### Branching
+
+### Stash
+
+### Temporary Commits
+
 ## git reflog
 
 ## git reset
+
+### `git reset [<commit>] [--mode]`
+### `git reset [<commit>] -- <path>`
 
 ## Patchwise Operations
 
