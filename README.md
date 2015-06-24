@@ -111,7 +111,8 @@ filter-branch`.
 ## git reset
 
 ### `git reset [<commit>] [--mode]`
-### `git reset [<commit>] -- <path>`
+
+### `git reset [<commit>] -- <paths>`
 
 ## Patchwise Operations
 
