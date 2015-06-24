@@ -124,3 +124,17 @@ filter-branch`.
 
 ## Rewriting History
 
+### git commit --amend
+
+### git cherry-pick
+
+- How might a commit be "moved" to the correct branch?
+
+### git rebase
+
+### git rebase --interactive
+
+#### --autosquash
+
+- `rebase.autosquash = true`
+
