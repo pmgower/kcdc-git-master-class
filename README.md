@@ -9,6 +9,13 @@ will include local and distributed workflows, history inspection and
 manipulation, and a glimpse into the power available through tools like
 filter-branch`.
 
+## Agenda
+
+0:00 Introductions
+0:15 Git Environment
+0:30 git init & Core Concepts
+1:20 <Break>
+
 ## Keith Dahlby
 
 * E-Commerce Architect @ Motorsport Aftermarket Group
@@ -16,3 +23,68 @@ filter-branch`.
 * https://github.com/libgit2/libgit2sharp
 * Go Cyclones!
 * @dahlbyk
+
+## Git Environment
+
+### Configuration
+
+- `git help config`
+- Scopes
+  - Repository (`[--local]`) in `.git/config`
+  - User (`--global`) in `$XDG_CONFIG_HOME/git/config` or `~/.gitconfig`
+  - System (`--system`) in `$GIT_INSTALL_DIR/etc/gitconfig`
+- `git config -e <scope>`
+
+```
+# git config core.editor vim
+[core]
+	editor = vim
+
+# git config branch.master.rebase true
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	rebase = true
+```
+
+#### Suggestions
+
+- `diff.renames = copies`
+- `difftool.prompt = false`
+- `mergetool.prompt = false`
+- `mergetool.keepBackup = false`
+- `help.autocorrect = 5`
+- `log.date = relative`
+
+### Aliases
+
+- `git config alias.ds "diff --stat"
+- `git ds` => `git diff --stat`
+- `git ds dev` => `git diff
+
+#### Suggestions
+
+- `alias.lg = log --oneline --decorate ----graph
+- `alias.new = log --oneline --decorate --reverse master..`
+- http://bit.ly/better-git-svn
+
+## git init & Core Concepts
+
+### Working Directory
+
+### Index
+
+### Commit
+
+#### Blob
+
+#### Tree
+
+#### Metadata
+
+### HEAD
+
+### Checkout
+
+### History
+
