@@ -1,0 +1,9 @@
+# http://git-scm.com/docs/gitattributes
+
+# Normalize all files (autocrlf = true)
+*	text=auto
+
+# Disable normalization (autocrlf = false)
+# *	-text
+
+*.cs	diff=csharp
